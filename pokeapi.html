@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokeapi.css">
+    <script type="text/javascript" src="pokeapi.js"></script>
+    <title>pokemon</title>
+</head>
+<body>
+    <header>
+        <img src="./title.jpg" width="700px" height="200px">
+    </header>
+    
+    <div class="main">
+        
+    <form action="#">
+        <h1 style="font-weight: lighter;">BUSCADOR</h1>
+        
+        <div class="row">
+          <input type="text" id="nombre"/>
+          <label for="fancy-text" style="font-size:larger; font-weight: lighter;  letter-spacing: 0.05em;">NOMBRE</label>
+        </div>
+
+        <div class="card" id="pokemon-list">
+           
+            <img src="" alt="">
+            
+            <p></p>
+            
+        </div> 
+
+       
+        <div class="row">
+          <textarea id="descripcion"></textarea>
+          <label for="descripcion" style="font-size:x-large; font-weight: lighter;  letter-spacing: 0.05em;">Descripción</label>
+        
+        </div>
+
+        
+        <button type="submit" onclick="buscarPokemon()">BUSCAR</button>
+
+      </form>
+
+    </div>
+
+<hr> 
+
+
+</body>
+</html>
+
+
+
+
+
+
